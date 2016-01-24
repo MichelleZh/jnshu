@@ -1,0 +1,86 @@
+html {
+    font-family: SimHei, "Microsoft YaHei", "Microsoft JhengHei", sans-serif;;
+}
+body {
+    margin: 0;
+    color: #fff;
+}
+.container {
+    width: 640px;
+    height: 1097px;
+}
+.header{
+    height: 88px;
+    background-color: #22292c;
+}
+.container {
+    background-color: #68cdd5;
+}
+.back {
+    position: relative;
+    top: 23px;
+    left: 17px;
+    vertical-align: middle;
+
+    float: left;
+    font-size: 26px;
+}
+.back img,
+.menu img {
+    vertical-align: middle;
+}
+.menu {
+    position: relative;
+    top: 39px;
+    right: 18px;
+    float: right;
+    vertical-align: middle;
+}
+.title {
+    position: relative;
+
+    top: 23px;
+    vertical-align: middle;
+    margin: auto;
+    text-align: center;
+    font-size: 34px;
+}
+/*ÄÚÈÝ²¿·Ö*/
+.cback {
+    position: relative;
+    top: 25px;
+    left: 30px;
+    height: 116px;
+}
+.logo {
+    position: relative;
+    margin: auto;
+    width: 181px;
+    height: 191px;
+}
+.text {
+    margin: auto;
+    width: 450px;
+    height: 369px;
+    font-size: 30px;
+    line-height: 1.8em;
+}
+.lianxi {
+    height: 333px;
+}
+.left {
+    position: relative;
+    left: 139px;
+    float: left;
+    background-color: transparent;
+}
+.right {
+    position: relative;
+    right: 123px;
+    float: right;
+}
+p {
+    margin:22px 0;
+    font-size: 24px;
+    text-align: center;
+}

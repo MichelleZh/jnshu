@@ -1,0 +1,92 @@
+html {
+    font: normal 125%  /*SimHei,*/"Microsoft YaHei", sans-serif;
+    line-height: 1.42857143;
+
+}
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+}
+.container {
+    width: 32rem;
+    height: 54.85rem;
+    color: #fff;
+    background-color: #68cdd5;
+}
+.header {
+    height: 4.4rem;
+    background-color: #22292c;
+    color: #f8f6f5;
+}
+.back {
+    padding: 1.2rem .85rem;
+    float: left;
+    font-size: 1.3rem;
+}
+.back-img, .back-text {
+    float: left;
+}
+h1 {
+    width: 3.6rem;
+    margin: auto;
+    padding: .95rem 0 1.65rem;
+    font-weight: normal;
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 1;
+}
+
+.menu {
+    position: relative;
+    top: -2.45rem;
+    right: .9rem;
+    float: right;
+}
+.content {
+    color: #fff;
+    background-color: #68cdd5;
+}
+.cback {
+    position: relative;
+    top: 1rem;
+    left: 1.75rem;
+    float: left;
+}
+.logo {
+    padding: 3.1rem 13.05rem 5.45rem 9.9rem;
+}
+.text {
+    padding: 0 5rem 0 4.5rem;
+    font-size: 1.5rem;
+    line-height: 2.711rem;
+}
+.left {
+    float: left;
+}
+.left-img {
+    padding: 8.35rem 0 0 6.95rem;
+}
+.contacta, .contactb {
+    font-size: 1.2rem;
+    padding-top: .8rem;
+}
+.contacta {
+    position: relative;
+    left: 6.1rem;
+    /*float: left;*/
+}
+.right {
+    float: right;
+}
+.right-img {
+    padding: 8.35rem 6.15rem 0 0;
+}
+.contactb {
+    position: relative;
+    right: 5.6rem;
+    /*float: right;*/
+    text-align: right;
+}
