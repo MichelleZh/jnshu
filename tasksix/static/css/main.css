@@ -1,0 +1,143 @@
+html {
+    font: normal 125% "Microsoft YaHei", SimHei, sans-serif;
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+}
+body, h1, p {margin:0;}
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    outline: 0;
+    color: inherit;
+    background-color: inherit;
+}
+
+.container {
+    width: 32rem;
+    height: 54.8rem;
+    background-color:  #29bde0;
+    overflow: hidden;
+}
+                /*头部*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 32rem;
+    height: 4.4rem;
+    z-index: 100;
+    background-color: #29bde0;
+    clear: both;
+}
+.menu {
+    position: absolute;
+    top: 1.7rem;
+    left: 1.15rem;
+}
+.title {
+    position: relative;
+    top: 1.75rem;
+    left: 0;
+    font-size: 1.7rem;
+    font-weight: normal;
+}
+.close {
+    position: absolute;
+    top: 1.85rem;
+    right: 1.2rem;
+}
+                  /*内容区*/
+.content {
+    position: absolute;
+    top: 0;
+    width: 32rem;
+    padding-top: 4.4rem;
+}
+.next {
+    width: 100%;
+    height: 4.1rem;
+    background-color: #b9e9f5;
+}
+.over {
+    position: absolute;
+    padding-left: 2.35rem;
+    font-size: 1.3rem;
+    line-height: 4.1rem;
+    color: #464646;
+}
+.next-btn {
+    position: relative;
+    top: .75rem;
+    right: .85rem;
+    float: right;
+    width: 2.6rem;
+    height: 2.6rem;
+    line-height: 1;
+    vertical-align: middle;
+    background-color: #fbb435;
+    border: 0;
+    border-radius: 50%;
+}
+.next-btn>img {
+    padding: .55rem .5rem .55rem .8rem;
+}
+.tri {
+    position: absolute;
+    top: 8.5rem;
+    left:3.55rem;
+    width: 0;
+    height: 0;
+    border-width: .65rem .35rem;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: #b9e9f5;
+}
+.click {
+    padding: 1.2rem 0 0 3.6rem;
+    font-size: 1.2rem;
+    text-align: left;
+}
+                    /*角色投票*/
+.main {
+    width: 31.2rem;
+    float: left;
+    margin: .2rem .4rem 0;
+
+}
+.player {
+    float: left;
+    width: 6.3rem;
+    height: 6.3rem;
+    margin: 1.8rem;
+    border: .25rem solid #fff;
+    background-color: #f5c97b;
+}
+.role {
+    font-size: 1.5rem;
+    line-height: 4.95rem;
+    color: #565656;
+}
+.num {
+    font-size: 1.138rem;
+    line-height: 1.35rem;
+    background-color: #83b09a;
+}
+                    /*脚部*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /*    width: 32rem;
+        height: 9.5rem;*/
+    background-color: #29bde0;
+}
+.footer p {
+    width: 24.5rem;
+    height: 4.35rem;
+    line-height: 4.35rem;
+    margin: 2.1rem 3.6rem 3.05rem 3.9rem;
+    font-size: 2rem;
+    background-color: #fbb435;
+}
