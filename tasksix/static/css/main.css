@@ -137,24 +137,22 @@ button {
     margin-right: .25rem;
     }
 .icon-a {
-    background-image: url(../img/icon/i-a.png);
+    background: url(../img/icon/icon.png) 0 0;
 }
 .icon-b {
-    background-image: url(../img/icon/i-b.png);
+    background: url(../img/icon/icon.png) -1.5rem 0;
 }
 .icon-c {
-    background-image: url(../img/icon/i-c.png);
+    background: url(../img/icon/icon.png) -3rem 0;
 }
 .icon-d {
-    background-image: url(../img/icon/i-d.png);
+    background: url(../img/icon/icon.png) -4.5rem 0;
 }
                     /*½Å²¿*/
 .footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    /*    width: 32rem;
-        height: 9.5rem;*/
     background-color: #29bde0;
 }
 .footer p {

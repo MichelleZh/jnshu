@@ -16,15 +16,17 @@
     <div class="content">
         <div class="state">
             <p class="state-text">发言讨论结束，大家请投票</p>
-            <button class="play">
+            <button class="play" onclick="p()">
                 <img src="static/img/icon/i-play.png" alt="play"/>
             </button>
+            <audio id="music" src="static/media/财富自由.mp3">
+                Your browser does not support the audio element.
+            </audio>
         </div>
         <div class="tri"></div>
         <p class="click">点击得票数最多人的头像</p>
         <div class="main">
             <!--div.player*12>p.role+p.num{$号}-->
-
             <div class="player">
                 <p class="role">水民</p>
 
@@ -98,5 +100,11 @@
     </div>
     <div class="footer"><p>投死</p></div>
 </div>
+<script>
+    function p()
+    {
+        document.getElementById("music").play();
+    }
+</script>
 </body>
 </html>
